@@ -1,0 +1,50 @@
+{"name":"NLP Tasks","children": [
+									 {"name": "Phonology Level",
+									 							"children": [ 
+																			{"name": "Phonology Segmentation"},
+																			{"name": "Transliteration"}
+									 							]
+									 },
+									 {"name": "Morphology Level",
+									 							"children": [ 
+																			{"name": "Morphological segmentation"},
+																			{"name": "Word Segmentation"},
+																			{"name": "Stemming"}
+									 							]
+									 },
+									 {"name": "Lexical Level",
+									 							"children": [ 
+																			{"name": "Tagging 1 : POS Tagging"},
+																			{"name": "Tagging 2 : Named-Entity Tagging (Named entity recognition)"},
+																			{"name": "Word-sense disambiguation"}
+
+									 							]
+									 },
+									 {"name": "Syntax Level",
+									 							"children": [ 
+									 										{"name": "Language Modeling"},
+																			{"name": "Chunking"},
+																			{"name": "Syntax Parsing"},
+																			{"name": "Sentence breaking"}
+
+									 							]
+									 },
+									 {"name": "Semantics Level",
+									 							"children": [ 
+
+									 										{"name": "Relationship extraction"},
+																			{"name": "Semantic Role Labeling"},
+																			{"name": "Semantic Parsing"},
+																			{"name": "Coreference resolution"}
+
+
+									 							]
+									 },
+									 {"name": "Pragmatics Level",
+									 							"children": [ 
+																			{"name": "Discourse analysis"}
+
+									 							]
+									 }
+										]
+}

@@ -1,0 +1,230 @@
+{
+ "name": "Machine Learning",
+ "children": [
+  {"name": "Base level","children": [
+									  {"name":"fitting data","children": [
+																			 {"name": "Kernel Functions","proficiency":4},
+																			 {"name": "Cross Validation","proficiency":4},
+																			 {"name": "Regularization", "proficiency":4}
+									  										]
+									  },
+									  {"name":"Optimization", "children": [
+
+									  											{"name": "Convex Optimization", "children": [
+																																{"name": "linear programming (LP)", "proficiency":3,"level": "base" , "task":"Optimization" , "subtask":"Convex Optimization"},
+																																{"name": "second-order cone programming (SOCP)", "proficiency":1,"level": "base" , "task":"Optimization" , "subtask":"Convex Optimization"},
+																																{"name": "semi-definite Programming (SDP)", "proficiency":1,"level": "base" , "task":"Optimization" , "subtask":"Convex Optimization"},
+																																{"name": "Conic Programming", "level": "base","proficiency":1 , "task":"Optimization" , "subtask":"Convex Optimization"},
+																																{"name": "Geometric Programming", "level": "base" ,"proficiency":1, "task":"Optimization" , "subtask":"Convex Optimization"}
+
+														  																	]
+														  						},
+														  						{"name": "Integer Programming", "proficiency":2, "level": "base" , "task":"Optimization" , "subtask":"Integer Programming"},
+																				{"name": "Quadratic Programming", "proficiency":1, "level": "base" , "task":"Optimization" , "subtask":"Quadratic Programming"},
+																				{"name": "Fractional Programming", "proficiency":1, "level": "base" , "task":"Optimization" , "subtask":"Fractional Programming"},
+																				{"name": "Quadratic Programming", "level": "base" ,"proficiency":1, "task":"Optimization" , "subtask":"Quadratic Programming"},
+																				{"name": "Non-linear Programming ", "level": "base" ,"proficiency":1, "task":"Optimization" , "subtask":"Non-linear Programming"},
+																				{"name": "Randomized Optimization", "children": [
+																																{"name": "Hill Climbing","proficiency":4, "level": "base" , "task":"Optimization" , "subtask":"Randomized Optimization"},
+																																{"name": "Simulated Annealing","proficiency":4, "level": "base" , "task":"Optimization" , "subtask":"Randomized Optimization"},
+																																{"name": "Gradient Descent","proficiency":4, "level": "base" , "task":"Optimization" , "subtask":"Randomized Optimization"},
+																																{"name": "Genetic Algorithm","proficiency":4, "level": "base" , "task":"Optimization" , "subtask":"Randomized Optimization"},
+																																{"name": "MIMIC", "level": "base" ,"proficiency":1, "task":"Optimization" , "subtask":"Randomized Optimization"},
+																																{"name": "Particle swarm optimization (PSO)", "proficiency":1, "level": "base" , "task":"Optimization" , "subtask":"Randomized Optimization"},
+																																{"name": "LBFG", "level": "base" ,"proficiency":3, "task":"Optimization" , "subtask":"Randomized Optimization"}
+
+																															]
+																				}
+																			]
+									  }
+
+  									]
+  },
+  {"name": "Main level", "children": [
+
+										  {"name": "Supervised", "children": [
+										  										{"name": "Density Estimation", "children": [
+
+																															{"name": "Kernel density estimation","proficiency":4, "level": "Middle Part", "supervision": "supervised", "task": "density_estimation", "view": "?"},
+																															{"name": "Histogram", "level": "Middle Part","proficiency":4, "supervision": "supervised", "task": "density_estimation", "view": "?"}
+										  																]
+										  										},
+																				{"name": "Classification", "children": [
+																															{"name": "Naive Bayes", "level": "Middle Part","proficiency":5, "supervision": "supervised", "task": "classification", "view": "generative"},
+																															{"name": "Perceptron", "level": "Middle Part","proficiency":4, "supervision": "supervised", "task": "classification", "view": "generative"},
+																															{"name": "Hidden Markov Model (HMM)", "level": "Middle Part","proficiency":5, "supervision": "supervised", "task": "classification", "view": "generative"},
+
+																															{"name": "log linear", "level": "Middle Part", "proficiency":5 , "supervision": "supervised", "task": "classification", "view": "discriminative"},
+																															{"name": "fisher linear", "level": "Middle Part","proficiency":3, "supervision": "supervised", "task": "classification", "view": "discriminative"},
+
+																															{"name": "Decision tree", "level": "Middle Part","proficiency":4, "supervision": "supervised", "task": "classification", "view": "discriminative"},
+																															{"name": "logistic regression", "level": "Middle Part","proficiency":5, "supervision": "supervised", "task": "classification", "view": "discriminative"},
+																															{"name": "multinomial logistic regression", "level": "Middle Part","proficiency":5, "supervision": "supervised", "task": "classification", "view": "discriminative"},
+																															{"name": "regular support vector machine (SVM)","proficiency":5, "level": "Middle Part", "supervision": "supervised", "task": "classification", "view": "discriminative", "family":"SVM"},
+																															{"name": "latent support vector machine (SVM)","proficiency":4, "level": "Middle Part", "supervision": "supervised", "task": "classification", "view": "discriminative", "family":"SVM"},
+																															{"name": "structured support vector machine (SVM)","proficiency":4, "level": "Middle Part", "supervision": "supervised", "task": "classification", "view": "discriminative", "family":"SVM"},
+																															{"name": "Relevance Vector Machine", "level": "Middle Part","proficiency":1, "supervision": "supervised", "task": "classification", "view": "discriminative", "family":"SVM"},
+
+																															{"name": "conditional random fields (CRF)","proficiency":5, "level": "Middle Part", "supervision": "supervised", "task": "classification", "view": "discriminative"},
+																															{"name": "Neural Network", "level": "Middle Part","proficiency":5, "supervision": "supervised", "task": "classification", "view": "discriminative" , "family":"deep_learning"},
+																															{"name": "Convolutional Neural Network","proficiency":4, "level": "Middle Part", "supervision": "supervised", "task": "classification", "view": "?" , "family":"deep_learning"},
+																															{"name": "Deep Belief Network","proficiency":4, "level": "Middle Part", "supervision": "supervised", "task": "classification", "view": "?" , "family":"deep_learning"},
+																															{"name": "Recurrent Neural Network","proficiency":3, "level": "Middle Part", "supervision": "supervised", "task": "classification", "view": "?" , "family":"deep_learning"},
+																															{"name": "Deep Boltzman Machine","proficiency":4, "level": "Middle Part", "supervision": "supervised", "task": "classification", "view": "?" , "family":"deep_learning"}
+
+										  																]
+										  										},
+										  										{"name": "Regression", "children": [
+
+																					  										{"name": "Linear Regression","proficiency":5, "level": "Middle Part", "supervision": "supervised", "task": "regression", "view": "generative"},
+																															{"name": "Polynomial Regression","proficiency":5, "level": "Middle Part", "supervision": "supervised", "task": "regression", "view": "generative"},
+																															{"name": "Gaussian Process Regression","proficiency":4, "level": "Middle Part", "supervision": "supervised", "task": "regression", "view": "generative"}
+
+
+										  																]
+										  										},
+										  										{"name": "Anomaly Detection", "children": [
+
+																															{"name": "Local outlier factor","proficiency":3, "level": "Middle Part", "supervision": "supervised", "task": "anomaly_detection", "view": "?"},
+																															{"name": "K-nn","proficiency":5, "level": "Middle Part", "supervision": "supervised", "task": "anomaly_detection", "view": "?"}
+
+										  										]
+										  										}
+										  										
+										  									]
+										  },
+										  {"name": "Unsupervised", "children": [
+
+										  										{"name": "Clustering", "children": [
+																					  										{"name": "Kmedoid","proficiency":5, "level": "Middle Part", "supervision": "unsupervised", "task": "clustering", "view": "discriminative", "subtask":"partial_clustering"},
+																															{"name": "Kmeans","proficiency":5, "level": "Middle Part", "supervision": "unsupervised", "task": "clustering", "view": "generative", "subtask":"partial_clustering"},
+																															{"name": "DBSCAN","proficiency":4, "level": "Middle Part", "supervision": "unsupervised", "task": "clustering", "view": "discriminative", "subtask":"partial_clustering"},
+																															{"name": "Gaussian mixture models","proficiency":5, "level": "Middle Part", "supervision": "unsupervised", "task": "clustering", "view": "generative", "subtask":"partial_clustering"},
+																															{"name": "Mean Shift", "proficiency":2,"level": "Middle Part", "supervision": "unsupervised", "task": "clustering", "view": "generative", "subtask":"partial_clustering"},
+																															{"name": "Single Linkage clustering (SLC)","proficiency":1, "level": "Middle Part", "supervision": "unsupervised", "task": "clustering", "view": "generative", "subtask":"partial_clustering"},
+
+																															{"name": "BIRCH","proficiency":5, "level": "Middle Part", "supervision": "unsupervised", "task": "clustering", "view": "?", "subtask":"hierarchical_clustering"},
+																															{"name": "Optics","proficiency":4, "level": "Middle Part", "supervision": "unsupervised", "task": "clustering", "view": "?", "subtask":"hierarchical_clustering"}
+
+										  																]
+										  										},
+										  										{"name": "Association Rule Learning", "children": [
+
+																					  										{"name": "Apriori","proficiency":4, "level": "Middle Part", "supervision": "unsupervised", "task": "association_rule_learning", "view": "?"},
+																															{"name": "FP-growth","proficiency":4, "level": "Middle Part", "supervision": "unsupervised", "task": "association_rule_learning", "view": "?"}
+
+										  																]
+										  										},
+
+																				{"name": "Dimentionality Reducation", "children": [
+
+																																{"name": "Principle Component Analysis(PCA)","proficiency":5, "level": "Middle Part", "supervision": "unsupervised", "task": "dimentionality_reducation", "view": "?"},
+																																{"name": "Factor Analysis","proficiency":2, "level": "Middle Part", "supervision": "unsupervised", "task": "dimentionality_reducation", "view": "?"},
+																																{"name": "Canonical Correlation Analysis(CCA)","proficiency":2, "level": "Middle Part", "supervision": "unsupervised", "task": "dimentionality_reducation", "view": "?"},
+																																{"name": "Independent Component Analysis(ICA)","proficiency":2,  "level": "Middle Part", "supervision": "unsupervised", "task": "dimentionality_reducation", "view": "?"},
+																																{"name": "Linear Discriminant Analysis(LDA)","proficiency":2,  "level": "Middle Part", "supervision": "unsupervised", "task": "dimentionality_reducation", "view": "?"},
+																																{"name": "Non-negative Matrix Factorization(NMF)","proficiency":1,  "level": "Middle Part", "supervision": "unsupervised", "task": "dimentionality_reducation", "view": "?"},
+																																{"name": "Randomized Projections","proficiency":1,  "level": "Middle level", "supervision": "unsupervised", "task": "dimentionality_reducation", "view": "?"},
+																																{"name": "t-SNE", "proficiency":3, "level": "Middle Part","myarea":"true", "supervision": "unsupervised", "task": "dimentionality_reducation", "view": "?"},
+																																{"name": "sparse coding","proficiency":4,  "level": "Middle level", "supervision": "supervised", "task": "dimentionality_reducation", "view": "?"},
+																																{"name": "Auto Encoder","proficiency":5,  "level": "Middle level", "supervision": "supervised", "task": "dimentionality_reducation", "view": "?", "family":"deep_learning"}
+
+		  																								]
+										  										}
+										  									]
+										  },
+										  {"name": "Semi-Supervised", "children": [
+																				  {"name": "Classification", "children": [
+																				  											{"name": "Inductive", "children": [
+
+
+																								
+																																{"name": "Self-training","proficiency":3,  "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "generative"},
+																																{"name": "Co-training","proficiency":3,  "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "generative"},
+																																{"name": "Yarowsky","proficiency":4,  "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "generative"},
+																																{"name": "Manifold Regularization","proficiency":3,  "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "generative"},
+																																{"name": "Harmonic Mixture","proficiency":1,  "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "generative"},
+																																{"name": "Information Regularization","proficiency":1,  "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "generative"},
+
+																																{"name": "Self-Taught learning methods*","proficiency":1,  "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "generative"}
+																																										]
+																															},
+																															{"name": "Transductive", "children": [
+																																								{"name": "Transductive SVM (TSVM)","proficiency":3,  "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "?"},
+
+																																										{"name": "Graph-based Methods","proficiency":5, "myarea":"true", "children": [
+																																											{"name": "Label Propagation (LP)","proficiency":5,  "myarea":"true", "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "?"},
+																																											{"name": "Modified Apsorbtion (MAD)","proficiency":5,  "myarea":"true", "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "?"},
+
+																																											{"name": "Transduction with confidence (TACO)","proficiency":5,  "myarea":"true", "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "?"},
+																																											{"name": "Measure Propagation (MP)","proficiency":5,  "myarea":"true", "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "?"}
+
+																																											]
+																																											}
+
+																																										]
+																															}
+
+																														]
+																					},
+
+											
+																					{"name": "Clustering", "level": "Middle Part", "proficiency":4,  "supervision": "semi-Supervised", "task": "clustering", "view": "?", "children":[
+
+
+							 																												 {"name": "semi-supervised Gaussian mixture model","proficiency":3,  "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "generative"},
+																																				{"name": "semi-supervised Kmeans", "proficiency":5, "level": "Middle Part", "supervision": "semi-Supervised", "task": "classification", "view": "generative"}
+
+
+																					]},
+																					{"name": "Regression", "level": "Middle Part","proficiency":3,  "supervision": "semi-Supervised", "task": "regression", "view": "generative"}
+
+
+										  									]
+										  },
+										  {"name": "Reinforcement Learning", "children": [
+
+																			 	{"name": "SARSA", "proficiency":1, "level": "Middle Part", "supervision": "reinforcement_learning", "task": "?", "view": "?"},
+																				{"name": "Temporal difference learning", "proficiency":1, "level": "Middle Part", "supervision": "reinforcement_learning", "task": "?", "view": "?"},
+																				{"name": "Q-learning", "proficiency":1, "level": "Middle Part", "supervision": "reinforcement_learning", "task": "?", "view": "?"},
+																				{"name": "Learning Automata","proficiency":2,  "level": "Middle Part", "supervision": "reinforcement_learning", "task": "?", "view": "?"},
+																				{"name": "Monte Carlo Method", "proficiency":3, "level": "Middle Part", "supervision": "reinforcement_learning", "task": "?", "view": "?"}
+
+										  									]
+										  }
+
+  									]
+  },
+
+  {"name": "High level", "children": [
+									{"name": "Multi-task Learning", "children": [
+
+																				{"name": "Joint Feature Learning","proficiency":4,  "level": "High level", "supervision": "supervised", "task": "multitask_learning", "view": "?", "family":"Full related"},
+																				{"name": "Mean Regularized Learning","proficiency":3,  "level": "High level", "supervision": "supervised", "task": "multitask_learning", "view": "?", "family":"Full related"},
+																				{"name": "Shared Parameter Learning","proficiency":2,  "level": "High level", "supervision": "supervised", "task": "multitask_learning", "view": "?", "family":"Full related"},
+																				{"name": "Low Rank Regularized Learning","proficiency":1,  "level": "High level", "supervision": "supervised", "task": "multitask_learning", "view": "?", "family":"Full related"},
+																				{"name": "Alternative structural optimization","proficiency":1,  "level": "High level", "supervision": "supervised", "task": "multitask_learning", "view": "?", "family":"Full related"},
+																				{"name": "Clustered Multi-task Learning","proficiency":2,  "level": "High level", "supervision": "supervised", "task": "multitask_learning", "view": "?"},
+																				{"name": "Graph-Based Multi-task Learning","proficiency":2,  "level": "High level", "supervision": "supervised", "task": "multitask_learning", "view": "?"},
+																				{"name": "Tree Based Multi-task Learning","proficiency":2,  "level": "High level", "supervision": "supervised", "task": "multitask_learning", "view": "?"}
+																				]
+  									},
+  									{"name": "Probabilistic Graphical Models", "children": [
+											  									{"name": "Bayesian Network","proficiency":5,  "level": "High level", "supervision": "supervised", "task": "visualization(PGM)", "view": "generative"},
+																				{"name": "Markov Random Fields","proficiency":5,  "level": "High level", "supervision": "supervised", "task": "visualization(PGM)", "view": "generative"},
+																				{"name": "Factor Graph","proficiency":2,  "level": "High level", "supervision": "supervised", "task": "visualization(PGM)", "view": "generative"}
+
+																				]
+									},
+									{"name": "Ensemble Learning", "children": [
+																				{"name": "Bagging","proficiency":3,  "level": "High level", "supervision": "supervised", "task": "EnsembleLearning", "view": "?"},
+																				{"name": "Boosting","proficiency":2,  "level": "High level", "supervision": "supervised", "task": "EnsembleLearning", "view": "?"},
+																				{"name": "Random Farest","proficiency":2,  "level": "High level", "supervision": "supervised", "task": "EnsembleLearning", "view": "?"}
+																				]
+									},
+									{"name": "Active Learning","proficiency":1,  "level": "High level", "supervision": "supervised", "task": "Active_Learning", "view": "?"},
+									{"name": "Metric Learning", "proficiency":2, "level": "High level", "supervision": "supervised", "task": "Active_Learning", "view": "?"}
+  									]
+  }
+  ]
+}
